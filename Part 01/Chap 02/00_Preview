@@ -28,4 +28,4 @@ malloc & free: malloc에 의해 동적으로 할당되었던 메모리를 free�
 
 답변_
 값에 의한 호출(Call-by-value): 값이 복사되어 전달된다.
-참조에 의한 호출(Call-by-reference): 복사하여 전달하는 방식이 아닌 변수의 주소를 전달한.
+참조에 의한 호출(Call-by-reference): 복사하여 전달하는 방식이 아닌 변수의 주소를 전달한다.
