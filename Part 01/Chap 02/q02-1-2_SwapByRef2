@@ -1,0 +1,11 @@
+SwaoByRef2는 다음과 같이 정의되었다.
+
+void SwapByRef2(int &ref1, int &ref2)
+{
+  int temp=ref1;
+  ref1=ref2;
+  ref2=temp;
+ }
+ 
+ SwapByRef2의 매개변수에는 참조자가 선언되어 있다. 하지만 SwapByRef2(23, 45)처럼 사용하게 된다면 참조자가 상수를 가리키게 되는데 참조자는 상수를 참조할 수 없다.
+ 참조자가 가리키는 인자에는 반드시 변수가 와야한다. 그러므로 컴파일 에러가 발생하게 된다.
